@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Today weather forecast">
+    <meta name="keywords" content="Today weather forecast">
+    <meta name="author" content="Fozlul Haq (Shaikot)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Today weather forecast</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Optional Bootstrap theme -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xs-12 header-text">
+                <h1> Today weather forecast </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4 weather-forecast-box">
+                <div>
+                    <p><span class="city" title="City name"></span> <span class="country" title="Country name"></span></p>
+                </div>
+                <div class="weather" title="Weather description"></div>
+                <div class="weather-icon" title="Weather status">
+                    <img src="" id="picture" />
+                </div>
+                <div class="temperature" id="change-temp" title="Temperature"></div>
+                <div class="humidity" title="Humidity"></div>
+                <div class="wind" title="Wind speed"></div>
+            </div>
+            <div class="col-xs-4">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 footer">
+                <p>Made by <a href="https://github.com/Shaikot007" target="_blank" rel="noopener noreferrer">Shaikot</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

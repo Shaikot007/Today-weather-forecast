@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    background-color: darkcyan;
+    color: black;
+}
+
+.header-text {
+    margin: 10% auto auto auto;
+    text-align: center;
+    height: auto;
+    font-family: 'Nova Flat', cursive;
+}
+
+.weather-forecast-box {
+    margin: 5% auto auto auto;
+    text-align: center;
+    height: auto;
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
+}
+
+.footer {
+    margin: 5% auto auto auto;
+    text-align: center;
+    height: auto;
+    font-family: 'Nova Flat', cursive;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: black;
+}
